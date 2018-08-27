@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">Car Calculator</string>
+  <string name="engine_type_list">Choose type</string>
+  <string-array name="engine_list">
+    <item>Petrol</item>
+    <item>Diesel</item>
+  </string-array>
+</resources>
