@@ -56,3 +56,15 @@ D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\li
 D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\linksrc\System.Runtime.Serialization.pdb
 D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\linksrc\System.ServiceModel.Internals.pdb
 D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\linksrc\Mono.Security.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\CarCalculator.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\Mono.Android.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\Mono.Security.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\mscorlib.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.ComponentModel.Composition.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.Core.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.Net.Http.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.ServiceModel.Internals.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\android\assets\System.Xml.pdb
+D:\Projects\CarCalculator\CarCalculator\CarCalculator\obj\Debug\MonoAndroid81\linksrc\CarCalculator.pdb

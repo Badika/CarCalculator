@@ -65,6 +65,7 @@ namespace CarCalculator
         }
         private void Initialization()
         {
+            FillUpOutput(new OutputValues());
             YearsList yl = new YearsList(true);
             years = yl.Years;
             var adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleSpinnerItem, years);
@@ -92,6 +93,7 @@ namespace CarCalculator
                 spinnerYear.SetSelection(0);
                 spinnerEngineType.SetSelection(0);
                 engineVolume.Text = string.Empty;
+                FillUpOutput(new OutputValues());
             };
         }
 
@@ -106,16 +108,21 @@ namespace CarCalculator
 
         private void SomeValuesChanged()
         {
-            if (string.IsNullOrWhiteSpace(price.Text) || string.IsNullOrWhiteSpace(engineVolume.Text)) return;
+            int tempPrice;
 
-            if (InputValues.IsPrice(price.Text) 
+            if (string.IsNullOrWhiteSpace(engineVolume.Text)) return;
+
+            if (string.IsNullOrWhiteSpace(price.Text)) tempPrice = 0;
+            else tempPrice = Convert.ToInt32(price.Text);
+
+            if (InputValues.IsPrice(tempPrice) 
                 && InputValues.IsEngineVolume(engineVolume.Text) 
                 && InputValues.IsYear(years[spinnerYear.SelectedItemPosition]) 
                 && InputValues.IsEngineType(engineTypes[spinnerEngineType.SelectedItemPosition].ToString())
                 )
 
             {
-                iv = new InputValues(Convert.ToInt32(price.Text), years[spinnerYear.SelectedItemPosition],
+                iv = new InputValues(tempPrice, years[spinnerYear.SelectedItemPosition],
                     engineTypes[spinnerEngineType.SelectedItemPosition].ToString(), Convert.ToDouble(engineVolume.Text));
                 ov = Calculating.PriceCalculating(iv);
 
