@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vfigurska\\source\\repos\\CarCalculator\\CarCalculator\\CarCalculator.csproj",
+      "projectUniqueName": "D:\\Projects\\CarCalculator\\CarCalculator\\CarCalculator\\CarCalculator.csproj",
       "projectName": "CarCalculator",
-      "projectPath": "C:\\Users\\vfigurska\\source\\repos\\CarCalculator\\CarCalculator\\CarCalculator.csproj",
+      "projectPath": "D:\\Projects\\CarCalculator\\CarCalculator\\CarCalculator\\CarCalculator.csproj",
       "packagesPath": "C:\\Users\\vfigurska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vfigurska\\source\\repos\\CarCalculator\\CarCalculator\\obj\\",
+      "outputPath": "D:\\Projects\\CarCalculator\\CarCalculator\\CarCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

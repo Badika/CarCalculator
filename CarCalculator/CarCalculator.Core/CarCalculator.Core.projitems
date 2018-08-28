@@ -9,5 +9,10 @@
     <Import_RootNamespace>CarCalculator.Core</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Calculating.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EngineTypeList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputValues.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OutputValues.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YearsList.cs" />
   </ItemGroup>
 </Project>
